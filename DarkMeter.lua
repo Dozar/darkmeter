@@ -310,7 +310,7 @@ function DarkMeter:slashHandler(cmd, arg)
 		ChatSystemLib.PostOnChannel(ChatSystemLib.ChatChannel_System, "List of available commands:", "DarkMeter")
 		ChatSystemLib.PostOnChannel(ChatSystemLib.ChatChannel_System, "-----------------------------", "DarkMeter")
 		ChatSystemLib.PostOnChannel(ChatSystemLib.ChatChannel_System, "toggle (shows or hides the main window)", "DarkMeter")
-		ChatSystemLib.PostOnChannel(ChatSystemLib.ChatChannel_System, "restore (restore defaults settings)", "DarkMeter")
+    		ChatSystemLib.PostOnChannel(ChatSystemLib.ChatChannel_System, "Why do Java programmers have to wear glasses? ------- Because they dont C# -------- Hahahaha, now I can say I truly contributed to this project -Damon", "DarkMeter")
 	end
 end
 
