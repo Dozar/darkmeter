@@ -151,8 +151,8 @@ function DarkMeter:OnDocLoaded()
 
 
 	-- slash commands
+	Apollo.RegisterSlashCommand("dozarmeter", "slashHandler", self)
 	Apollo.RegisterSlashCommand("dm", "slashHandler", self)
-	Apollo.RegisterSlashCommand("darkmeter", "slashHandler", self)
 	
 	-- asks it the user wants to reset the data on world change
 	Apollo.RegisterEventHandler("ChangeWorld", "promptResetData", UI)
